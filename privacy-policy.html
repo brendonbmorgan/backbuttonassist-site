@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Back Button Assist</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
+    h1 { color: #0D1B2A; }
+    h2 { color: #1E3A5F; margin-top: 2em; }
+    table { border-collapse: collapse; width: 100%; }
+    td, th { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #f0f4f8; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Back Button Assist</h1>
+  <p><strong>Effective date:</strong> March 8, 2026<br>
+  <strong>Developer:</strong> Morgan (Back Button Assist)</p>
+
+  <h2>Overview</h2>
+  <p>Back Button Assist ("the app") is a Wear OS accessibility utility that remaps the hardware back-button long-press on your watch. This privacy policy explains what data the app does and does not collect.</p>
+
+  <h2>Data we do NOT collect</h2>
+  <p>Back Button Assist does <strong>not</strong>:</p>
+  <ul>
+    <li>Collect, transmit, or sell any personal information</li>
+    <li>Access your contacts, location, microphone, camera, or health data</li>
+    <li>Connect to any server, API, or third-party service</li>
+    <li>Send analytics, crash reports, or telemetry of any kind</li>
+    <li>Read the content of any app on your device</li>
+  </ul>
+
+  <h2>Data stored locally on your device</h2>
+  <p>The only data the app stores is your selected app preference (the package name of the app you chose to open on long-press). This is stored in Android SharedPreferences on your device and never leaves it.</p>
+
+  <h2>Accessibility Service disclosure</h2>
+  <p>Back Button Assist uses Android's Accessibility Service API solely to intercept hardware key events (the back button) and to perform navigation actions (Back / Home). The service does <strong>not</strong> read screen content, monitor typed text, capture any user input beyond the back button hardware key, or observe any other app's activity.</p>
+
+  <h2>Permissions</h2>
+  <table>
+    <tr><th>Permission</th><th>Why it is needed</th></tr>
+    <tr><td><code>BIND_ACCESSIBILITY_SERVICE</code></td><td>Required to intercept the hardware back button key event</td></tr>
+    <tr><td><code>QUERY_ALL_PACKAGES</code></td><td>Required to show the list of installed apps for you to choose from</td></tr>
+    <tr><td><code>VIBRATE</code></td><td>Provides haptic feedback when scrolling the bezel</td></tr>
+  </table>
+
+  <h2>Contact</h2>
+  <p>For any questions or concerns, contact the developer via the Play Store listing.</p>
+</body>
+</html>
